@@ -30,6 +30,11 @@ public class Ennemi
 
     }
 
+    public int DestroyEnnemi(int gold)
+    {
+        return gold += goldGiven;
+    }
+
     private void Move()
     {
 
